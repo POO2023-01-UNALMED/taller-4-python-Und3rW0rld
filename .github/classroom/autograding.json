@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test coincidencia",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python main.py",
+      "input": "",
+      "output": "Matematicas remoto\r\nGrupo de estudiantes: grupo predeterminado\r\nGrado 12\r\n['Kelly']\r\n['Jaime', 'Pedro', 'Santiago']\r\n['Javier']\r\n3\r\nGrado 1\r\nGrado 6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    },
+    {
+      "name": "Test constructores",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testConstructores.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 17
+    },
+    {
+      "name": "Test metodos",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testMetodos.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 17
+    }
+  ]
+}
